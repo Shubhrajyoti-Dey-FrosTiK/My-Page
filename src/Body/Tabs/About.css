@@ -1,0 +1,15 @@
+.About {
+    background-color:rgb(255, 254, 252);
+    /* padding-right: 10%; */
+    margin-right: 4%;
+    /* border-style: dashed; */
+}
+
+.About_Heading {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.About:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.Courses {
+    background-color:rgb(255, 254, 252);
+    margin-right: 4%;
+    padding-left: 10%;
+    padding-right: 15%;
+}
+
+.Courses:hover {
+    cursor: pointer;
+}

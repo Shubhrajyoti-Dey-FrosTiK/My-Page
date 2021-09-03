@@ -1,0 +1,21 @@
+.Blogs {
+    /* border-style: dashed; */
+    background-color:rgb(255, 254, 252);
+    padding-left: 10%;
+    padding-right: 10%;
+    /* border-top-right-radius: 80%; */
+    /* display: flex; */
+    /* margin-bottom: 0px */
+}
+
+.Blogs_Heading {
+    margin-left: 12px;
+    margin-right: 12px;
+    /* margin-bottom: 0px;
+    margin-top: 0px; */
+
+}
+
+.Blogs:hover {
+    cursor: pointer;
+}

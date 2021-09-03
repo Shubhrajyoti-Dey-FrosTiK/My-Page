@@ -1,0 +1,148 @@
+.pic {
+    /* background-color :darkslategray; */
+    display: flex;
+    flex-direction: column;
+    /* padding: 20%; */
+    /* border-style: dashed; */
+    /* border: 2px rgb(66, 223, 223); */
+}
+
+@media (min-width: 1024px) {
+    .img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 50%;
+        width: 50%;
+        border-radius: 50%;
+        align-items: center;
+        background-color: darkslategray;
+        padding: 2%;
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .img {
+        display: block;
+        margin-left: 5%;
+        margin-right: auto;
+        /* width: 50%; */
+        height: 70%;
+        width: 70%;
+        border-radius: 50%;
+        /* align-items: center; */
+        background-color: darkslategray;
+        padding: 2%;
+        margin-top: 5%;
+    }
+}
+
+.Name_College {
+    border: 2px rgb(66, 223, 223);
+    font-size: 90%;
+    /* display: flexbox; */
+    flex-direction: column;
+    /* font-size-adjust: 0.58; */
+    margin-left: 5%;
+    margin-right: auto;
+    color: beige;
+}
+
+@media (min-width: 1024px) {
+    .Content1 {
+        /* border-style: dashed; */
+        background-image: linear-gradient(rgb(7, 17, 73),white);
+    }
+}
+@media (max-width: 1024px) {
+    .Content1 {
+        /* border-style: dashed; */
+        display: flex;
+        background-image: linear-gradient(rgb(7, 17, 73),white);
+    }
+}
+
+.College {
+    /* margin-top: auto;
+    margin-bottom: auto; */
+    /* border-style: dashed; */
+    margin-top: 0px;
+    margin-right: 2%;
+}
+
+.Name {
+    /* margin-bottom: 2%; */
+    /* border-style: dashed; */
+    margin-bottom: 0px;
+}
+
+
+@media (min-width: 1024px) {
+    .Profile_Button {
+        margin-right:5% ;
+        margin-left: 5%;
+        background-color: antiquewhite;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+        
+    }
+    .Social {
+        display: inline-grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 100%;
+        justify-items: center;
+        align-items: center;
+        grid-gap: 10px;
+        height: 10%;
+    }
+    .Profile_Text {
+        margin-top: 7%;
+        margin-bottom: 7%;
+    }
+    .Profile_Button_Container {
+        display: grid;
+        grid-template-columns: 1fr 80fr;
+    }
+
+    .Profile_Button_Image { 
+        display: flex;
+        /* justify-content: center; */
+        /* margin-left: 30%; */
+        height: 40px;
+        width: 40px;
+        /* align-items: center;  */
+        border-radius: 50%;
+        margin-left: 12%;
+        /* width: 50%; */
+    }
+}
+
+@media (max-width: 1024px) {
+    .Social {
+        display: inline-grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 100%;
+        justify-items: center;
+        align-items: center;
+        grid-gap: 10px;
+        height: 10%;
+    }
+
+    .Profile_Button_Image { 
+        visibility: hidden;
+        display: flex;
+        /* justify-content: center; */
+        /* margin-left: 30%; */
+        height: 4px;
+        width: 4px;
+        /* align-items: center;  */
+        border-radius: 50%;
+        margin-left: 12%;
+        /* width: 50%; */
+    }
+
+    
+}

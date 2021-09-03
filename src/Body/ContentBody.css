@@ -1,0 +1,65 @@
+.ContentBody {
+    /* border-style: dashed; */
+    overflow: auto;
+    background-color:rgb(255, 254, 252);
+    height: 100vh;
+    margin-bottom: 2%;
+}
+
+.Content_Div {
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.Normal {
+    /* margin-bottom: 0px; */
+    /* border-style: dashed; */
+    
+    margin-right: auto;
+}
+
+@media (min-width: 1024px) {
+    .ContentBody {
+        display: grid;
+        grid-template-columns: 2.75fr 0.5fr 6.75fr;
+    }
+
+    .Content3 {
+        display: block;
+    }
+
+    .Content4 {
+        overflow: auto;
+    }
+}
+
+
+.fade-effect1{
+    display:block;
+    border:none;
+    color:white;
+    width:1px;
+    background:black;
+    /* background: -webkit-gradient(radial, 50% 20%, 0, 20% 50%, 350, from(#000), to(#fff)); */
+    background: radial-gradient(circle at center, red 0, blue, green 100%);
+}
+
+.Body_Link{
+    color: inherit;
+    text-decoration: none;
+}
+.Heading_Link{
+    color: inherit;
+    text-decoration: none;
+}
+.Subheading_Link{
+    color: inherit;
+    text-decoration: none;
+}
+
+.Profile_Button_Image1 {
+    width: 15%;
+    height: 15%;
+}

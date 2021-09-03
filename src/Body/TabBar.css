@@ -1,0 +1,23 @@
+.TabBar {
+    /* border-style: dashed; */
+    display: block;
+    /* height: 30%; */
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+@media (max-width: 1024px) {
+    .Tabs {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 1fr;
+        height: 5%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .Tabs {
+        display: grid;
+        grid-template-columns: 0.1fr 10fr 1fr 10fr 1fr 10fr 20fr;
+        height: 5%;
+    }
+}
+

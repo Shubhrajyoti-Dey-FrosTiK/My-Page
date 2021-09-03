@@ -1,5 +1,33 @@
 .App {
   text-align: center;
+  background-image: linear-gradient(rgb(7, 17, 73),white);
+}
+
+@media (min-width: 1024px) {
+  .Pic_Name {
+    padding-top: 1%;
+    padding-right: 1%;
+    display: grid;
+    grid-template-columns:2fr 8fr 1fr;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgb(7, 17, 73),white);
+
+    
+    /* grid-column: auto; */
+    /* margin-top:20px; */
+  }
+}
+
+@media (max-width: 1024px) {
+  .Pic_Name {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    /* grid-column: auto; */
+    /* margin-top:20px; */
+  }
 }
 
 .App-logo {
